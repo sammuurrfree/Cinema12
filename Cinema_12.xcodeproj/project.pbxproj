@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		4B5B2516271FF62A000DB2A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5B2515271FF62A000DB2A1 /* AppDelegate.swift */; };
 		4B5B2518271FF62A000DB2A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5B2517271FF62A000DB2A1 /* SceneDelegate.swift */; };
-		4B5B251A271FF62A000DB2A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5B2519271FF62A000DB2A1 /* ViewController.swift */; };
 		4B5B251D271FF62A000DB2A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5B251B271FF62A000DB2A1 /* Main.storyboard */; };
 		4B5B251F271FF62B000DB2A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5B251E271FF62B000DB2A1 /* Assets.xcassets */; };
 		4B5B2522271FF62B000DB2A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5B2520271FF62B000DB2A1 /* LaunchScreen.storyboard */; };
+		4B5B252E271FFC35000DB2A1 /* SignInScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5B252D271FFC35000DB2A1 /* SignInScreenViewController.swift */; };
+		4B5B253027200906000DB2A1 /* SignUpScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5B252F27200906000DB2A1 /* SignUpScreenViewController.swift */; };
+		4B5B253227201B20000DB2A1 /* EmailCheker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5B253127201B20000DB2A1 /* EmailCheker.swift */; };
+		4B5B2534272027E3000DB2A1 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5B2533272027E3000DB2A1 /* Register.swift */; };
+		4B5B253627203187000DB2A1 /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5B253527203187000DB2A1 /* Authorization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B5B2512271FF62A000DB2A1 /* Cinema_12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinema_12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5B2515271FF62A000DB2A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B5B2517271FF62A000DB2A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B5B2519271FF62A000DB2A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B5B251C271FF62A000DB2A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B5B251E271FF62B000DB2A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B5B2521271FF62B000DB2A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B5B2523271FF62B000DB2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5B252D271FFC35000DB2A1 /* SignInScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenViewController.swift; sourceTree = "<group>"; };
+		4B5B252F27200906000DB2A1 /* SignUpScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenViewController.swift; sourceTree = "<group>"; };
+		4B5B253127201B20000DB2A1 /* EmailCheker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailCheker.swift; sourceTree = "<group>"; };
+		4B5B2533272027E3000DB2A1 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		4B5B253527203187000DB2A1 /* Authorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,51 @@
 		4B5B2514271FF62A000DB2A1 /* Cinema_12 */ = {
 			isa = PBXGroup;
 			children = (
-				4B5B2515271FF62A000DB2A1 /* AppDelegate.swift */,
-				4B5B2517271FF62A000DB2A1 /* SceneDelegate.swift */,
-				4B5B2519271FF62A000DB2A1 /* ViewController.swift */,
-				4B5B251B271FF62A000DB2A1 /* Main.storyboard */,
+				4B5B252C271FF757000DB2A1 /* common */,
+				4B5B252B271FF746000DB2A1 /* VIews */,
+				4B5B252A271FF73A000DB2A1 /* Controllers */,
+				4B5B2529271FF730000DB2A1 /* Models */,
 				4B5B251E271FF62B000DB2A1 /* Assets.xcassets */,
-				4B5B2520271FF62B000DB2A1 /* LaunchScreen.storyboard */,
 				4B5B2523271FF62B000DB2A1 /* Info.plist */,
 			);
 			path = Cinema_12;
+			sourceTree = "<group>";
+		};
+		4B5B2529271FF730000DB2A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B5B253127201B20000DB2A1 /* EmailCheker.swift */,
+				4B5B2533272027E3000DB2A1 /* Register.swift */,
+				4B5B253527203187000DB2A1 /* Authorization.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4B5B252A271FF73A000DB2A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B5B252D271FFC35000DB2A1 /* SignInScreenViewController.swift */,
+				4B5B252F27200906000DB2A1 /* SignUpScreenViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4B5B252B271FF746000DB2A1 /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				4B5B251B271FF62A000DB2A1 /* Main.storyboard */,
+				4B5B2520271FF62B000DB2A1 /* LaunchScreen.storyboard */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		4B5B252C271FF757000DB2A1 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				4B5B2515271FF62A000DB2A1 /* AppDelegate.swift */,
+				4B5B2517271FF62A000DB2A1 /* SceneDelegate.swift */,
+			);
+			path = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B5B251A271FF62A000DB2A1 /* ViewController.swift in Sources */,
+				4B5B2534272027E3000DB2A1 /* Register.swift in Sources */,
+				4B5B253027200906000DB2A1 /* SignUpScreenViewController.swift in Sources */,
+				4B5B252E271FFC35000DB2A1 /* SignInScreenViewController.swift in Sources */,
 				4B5B2516271FF62A000DB2A1 /* AppDelegate.swift in Sources */,
 				4B5B2518271FF62A000DB2A1 /* SceneDelegate.swift in Sources */,
+				4B5B253627203187000DB2A1 /* Authorization.swift in Sources */,
+				4B5B253227201B20000DB2A1 /* EmailCheker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,8 +343,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,8 +373,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
