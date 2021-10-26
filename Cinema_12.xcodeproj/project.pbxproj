@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B2584EF2722ABB200C00BD4 /* FilmCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2584EE2722ABB200C00BD4 /* FilmCollectionViewCell.swift */; };
+		4B2584F22722ACE000C00BD4 /* CoverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2584F12722ACE000C00BD4 /* CoverModel.swift */; };
+		4B2584F52722AE7200C00BD4 /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2584F42722AE7200C00BD4 /* Cover.swift */; };
+		4B2584F72722AFAB00C00BD4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2584F62722AFAB00C00BD4 /* MainViewController.swift */; };
+		4B2584FA2722BA0D00C00BD4 /* UImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2584F92722BA0D00C00BD4 /* UImageExtension.swift */; };
+		4B2584FD2722CA3100C00BD4 /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2584FC2722CA3100C00BD4 /* FilmModel.swift */; };
+		4B2584FF2722CC0600C00BD4 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2584FE2722CC0600C00BD4 /* Film.swift */; };
 		4B5B2516271FF62A000DB2A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5B2515271FF62A000DB2A1 /* AppDelegate.swift */; };
 		4B5B2518271FF62A000DB2A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5B2517271FF62A000DB2A1 /* SceneDelegate.swift */; };
 		4B5B251D271FF62A000DB2A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5B251B271FF62A000DB2A1 /* Main.storyboard */; };
@@ -20,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B2584EE2722ABB200C00BD4 /* FilmCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B2584F12722ACE000C00BD4 /* CoverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverModel.swift; sourceTree = "<group>"; };
+		4B2584F42722AE7200C00BD4 /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
+		4B2584F62722AFAB00C00BD4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4B2584F92722BA0D00C00BD4 /* UImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UImageExtension.swift; sourceTree = "<group>"; };
+		4B2584FC2722CA3100C00BD4 /* FilmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
+		4B2584FE2722CC0600C00BD4 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 		4B5B2512271FF62A000DB2A1 /* Cinema_12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinema_12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5B2515271FF62A000DB2A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B5B2517271FF62A000DB2A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +59,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B2584EC2722AA1200C00BD4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4B2584ED2722AA1900C00BD4 /* CollectionViewCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4B2584ED2722AA1900C00BD4 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4B2584EE2722ABB200C00BD4 /* FilmCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		4B2584F02722ACC900C00BD4 /* Cover */ = {
+			isa = PBXGroup;
+			children = (
+				4B2584F12722ACE000C00BD4 /* CoverModel.swift */,
+				4B2584F42722AE7200C00BD4 /* Cover.swift */,
+			);
+			path = Cover;
+			sourceTree = "<group>";
+		};
+		4B2584F82722B9F200C00BD4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4B2584F92722BA0D00C00BD4 /* UImageExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4B2584FB2722CA1E00C00BD4 /* Films */ = {
+			isa = PBXGroup;
+			children = (
+				4B2584FC2722CA3100C00BD4 /* FilmModel.swift */,
+				4B2584FE2722CC0600C00BD4 /* Film.swift */,
+			);
+			path = Films;
+			sourceTree = "<group>";
+		};
 		4B5B2509271FF62A000DB2A1 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +120,7 @@
 		4B5B2514271FF62A000DB2A1 /* Cinema_12 */ = {
 			isa = PBXGroup;
 			children = (
+				4B2584F82722B9F200C00BD4 /* Extension */,
 				4B5B252C271FF757000DB2A1 /* common */,
 				4B5B252B271FF746000DB2A1 /* VIews */,
 				4B5B252A271FF73A000DB2A1 /* Controllers */,
@@ -77,6 +134,8 @@
 		4B5B2529271FF730000DB2A1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4B2584FB2722CA1E00C00BD4 /* Films */,
+				4B2584F02722ACC900C00BD4 /* Cover */,
 				4B5B253127201B20000DB2A1 /* EmailCheker.swift */,
 				4B5B2533272027E3000DB2A1 /* Register.swift */,
 				4B5B253527203187000DB2A1 /* Authorization.swift */,
@@ -89,6 +148,7 @@
 			children = (
 				4B5B252D271FFC35000DB2A1 /* SignInScreenViewController.swift */,
 				4B5B252F27200906000DB2A1 /* SignUpScreenViewController.swift */,
+				4B2584F62722AFAB00C00BD4 /* MainViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -96,6 +156,7 @@
 		4B5B252B271FF746000DB2A1 /* VIews */ = {
 			isa = PBXGroup;
 			children = (
+				4B2584EC2722AA1200C00BD4 /* Cells */,
 				4B5B251B271FF62A000DB2A1 /* Main.storyboard */,
 				4B5B2520271FF62B000DB2A1 /* LaunchScreen.storyboard */,
 			);
@@ -183,12 +244,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B5B2534272027E3000DB2A1 /* Register.swift in Sources */,
+				4B2584FA2722BA0D00C00BD4 /* UImageExtension.swift in Sources */,
+				4B2584F72722AFAB00C00BD4 /* MainViewController.swift in Sources */,
+				4B2584FD2722CA3100C00BD4 /* FilmModel.swift in Sources */,
 				4B5B253027200906000DB2A1 /* SignUpScreenViewController.swift in Sources */,
 				4B5B252E271FFC35000DB2A1 /* SignInScreenViewController.swift in Sources */,
+				4B2584F52722AE7200C00BD4 /* Cover.swift in Sources */,
 				4B5B2516271FF62A000DB2A1 /* AppDelegate.swift in Sources */,
 				4B5B2518271FF62A000DB2A1 /* SceneDelegate.swift in Sources */,
 				4B5B253627203187000DB2A1 /* Authorization.swift in Sources */,
+				4B2584EF2722ABB200C00BD4 /* FilmCollectionViewCell.swift in Sources */,
 				4B5B253227201B20000DB2A1 /* EmailCheker.swift in Sources */,
+				4B2584F22722ACE000C00BD4 /* CoverModel.swift in Sources */,
+				4B2584FF2722CC0600C00BD4 /* Film.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
